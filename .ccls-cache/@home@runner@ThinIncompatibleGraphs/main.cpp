@@ -23,9 +23,9 @@ int rectangle::area(){
 int main(){
 	int len,wid;
 	
-	cout<<"Enter the length ";
+	cout<<"Enter the length of rectangle ";
 	cin>>len;
-	cout<<"Enter the width ";
+	cout<<"Enter the width of rectangle ";
 	cin>>wid;
 	
 	
@@ -34,7 +34,7 @@ int main(){
 	rec1.getlenth( len);
 	rec1.getwidth(wid);
 	
-	cout<<"area is "<<rec1.area()<<endl;
+	cout<<"area of a rectangle "<<rec1.area()<<endl;
 	
 	
 	
